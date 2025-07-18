@@ -1,10 +1,10 @@
-# 🍽️ Restaurant Management Database System
+# 🍽Restaurant Management Database System
 
 An end-to-end **SQL-based database management system** designed for a modern restaurant environment. This project models the operational and analytical workflows of a restaurant, combining customer ordering, employee assignment, inventory tracking, invoicing, and delivery logistics into one robust MySQL solution.
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 This project was developed for **Farmer’s Restaurant**, a hypothetical business seeking to digitize operations and move away from manual tracking. The database is built using **MySQL** and designed to support:
 
@@ -16,7 +16,7 @@ This project was developed for **Farmer’s Restaurant**, a hypothetical busines
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - 11 fully normalized entities with defined relationships
 - Support for **multi-channel customer orders** (dine-in & online)
@@ -26,18 +26,18 @@ This project was developed for **Farmer’s Restaurant**, a hypothetical busines
 
 ---
 
-## 🗂️ Schema Design
+## Schema Design
 
 - `Customer`, `Cus_order`, `Invoice`, `Payment_transaction`
 - `Meals`, `Drinks`, `Ingredients`, `Vendor`, `Executive_Chef`
 - `Employee`, `Areacode`
 
-📄 See full schema and relationships in [`Technical Report`](./Technical%20Report_%20Restaurant%20Management%20Database.pdf)  
-🧾 Business logic is detailed in [`Business Rules`](./Business%20Rules%20.pdf)
+See full schema and relationships in [`Technical Report`](./Technical%20Report_%20Restaurant%20Management%20Database.pdf)  
+Business logic is detailed in [`Business Rules`](./Business%20Rules%20.pdf)
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **MySQL** for schema creation and querying
 - **ER modeling** (Conceptual, Logical, and Physical)
@@ -45,7 +45,7 @@ This project was developed for **Farmer’s Restaurant**, a hypothetical busines
 
 ---
 
-## ✅ Sample Use Cases
+## Sample Use Cases
 
 - View all online customers in a specific city
 - List customers with assigned delivery employees by area code
@@ -55,7 +55,7 @@ This project was developed for **Farmer’s Restaurant**, a hypothetical busines
 
 ---
 
-## 📄 Example Queries
+## Example Queries
 
 ```sql
 -- 1. List all available meals
